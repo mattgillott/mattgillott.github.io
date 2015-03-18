@@ -15,6 +15,28 @@ General
 .externals span {
     margin: 0 50px;
 }
+@media screen and (max-width: 600px) {
+    .externals .riba {
+        height: 50px;
+    }
+    .externals .arb {
+        height: 60px;
+    }
+    .externals span {
+        margin: 0 40px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .externals .riba {
+        height: 35px;
+    }
+    .externals .arb {
+        height: 45px;
+    }
+    .externals span {
+        margin: 0 20px;
+    }
+}
 .speech-mark:nth-of-type(2n+1) {
     float: left;
     width: 30px;
@@ -22,13 +44,6 @@ General
 .speech-mark:nth-of-type(2n) {
     float: right;
     width: 30px;
-    margin-top: -20px;
+    margin-top: -30px;
     transform: rotate(180deg);
-}
-/***************************
-****************************
-Mobile
-****************************
-***************************/
-@media screen and (max-width: 767px) {
 }

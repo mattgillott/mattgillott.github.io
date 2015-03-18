@@ -176,12 +176,36 @@ Navbar
 }
 .navbar {
     position: relative;
-    width: 920px;
+    width: 100%;
     margin-bottom: 0;
     margin-bottom: 0;
     color: #000 !important;
     border-color: #727270;
     background-color: #727270;
+}
+@media screen and (max-width: 992px) {
+    .header {
+        width: 100%;padding: 0;
+    }
+    .sidebar {
+        display: none;
+    }
+    .navbar-wrapper,
+    .navbar,
+    #carousel {
+        width: 100%;
+    }
+    #carousel,
+    #carousel .item {
+        height: calc(100vw * 0.54);
+        max-height: 500px;
+    }
+    #carousel .item img {
+        height: 100%;
+    }
+    .navbar-wrapper {
+        margin-top: 0;
+    }
 }
 .navbar .container {
     width: 100%;
@@ -314,14 +338,57 @@ Ribbons
 .ribbon:after {
     border-width: 10px 0 0 30px;
     border-color: transparent transparent transparent #333;
+    top: -10px;
+    right: -1px;
 }
 .ribbon:before {
     top: -10px;
-    left: -2px;
+    left: -1px;
 }
-.ribbon:after {
-    top: -10px;
-    right: -2px;
+
+@media screen and (min-width: 1200px) and (max-width: 1220px) {
+    .ribbon {
+        width: 1180px;
+        left: -20px;
+    }
+    /*.ribbon:before {
+        border-width: 0 0 10px 15px;
+    }
+    .ribbon:after {
+        border-width: 10px 0 0 15px;
+    }*/
+}
+@media screen and (max-width: 1200px) {
+    .ribbon {
+        width: 1000px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1020px) {
+    .ribbon {
+        width: 970px;
+        left: -15px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .ribbon {
+        width: 780px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .ribbon {
+        width: 750px;
+        left: -15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ribbon {
+        width: calc(100% + 30px);
+        left: -15px;
+    }
+    .ribbon:before,
+    .ribbon:after {
+        display: none;
+    }
 }
 .featurette-heading:before {
     top: -5px;
@@ -419,4 +486,17 @@ footer .contact-info a:first-of-type p:first-of-type {
 footer .contact-form button {
     width: 100%;
     margin-top: 20px;
+}
+
+
+/***************************
+****************************
+Mobile
+****************************
+***************************/
+@media screen and (max-width: 767px) {
+    .col-sm-3,
+    .col-sm-4 {
+        margin-bottom: 30px;
+    }
 }
