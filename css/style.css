@@ -183,30 +183,6 @@ Navbar
     border-color: #727270;
     background-color: #727270;
 }
-@media screen and (max-width: 992px) {
-    .header {
-        width: 100%;padding: 0;
-    }
-    .sidebar {
-        display: none;
-    }
-    .navbar-wrapper,
-    .navbar,
-    #carousel {
-        width: 100%;
-    }
-    #carousel,
-    #carousel .item {
-        height: calc(100vw * 0.54);
-        max-height: 500px;
-    }
-    #carousel .item img {
-        height: 100%;
-    }
-    .navbar-wrapper {
-        margin-top: 0;
-    }
-}
 .navbar .container {
     width: 100%;
 }
@@ -231,6 +207,12 @@ Navbar
 .navbar .nav > li > a {
     font-weight: bold;
     color: #fff;
+}
+.navbar-brand .logo {
+    position: relative;
+    left: -5px;
+    top: -5px;
+    height: 30px;
 }
 /***************************
 ****************************
@@ -489,10 +471,43 @@ footer .contact-form button {
     margin-top: 20px;
 }
 
+/***************************
+****************************
+Small Screens
+****************************
+***************************/
+@media screen and (max-width: 992px) {
+    .header {
+        width: 100%;padding: 0;
+    }
+    .sidebar {
+        display: none;
+    }
+    .navbar-wrapper,
+    .navbar,
+    #carousel {
+        width: 100%;
+    }
+    #carousel,
+    #carousel .item {
+        height: calc(100vw * 0.54);
+        max-height: 500px;
+    }
+    #carousel .item img {
+        height: 100%;
+    }
+    .navbar-wrapper {
+        margin-top: 0;
+    }
+    /*.navbar-nav > li > a {
+        height: 80px;
+        line-height: 50px;
+    }*/
+}
 
 /***************************
 ****************************
-Mobile
+Extra Small Screens
 ****************************
 ***************************/
 @media screen and (max-width: 767px) {
@@ -503,4 +518,8 @@ Mobile
     footer .contact-form {
         padding: 0;
     }
+    /*.navbar-nav > li > a {
+        height: 0px;
+        line-height: 50px;
+    }*/
 }
