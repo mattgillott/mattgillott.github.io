@@ -224,9 +224,11 @@ Carousel
     overflow: hidden;
     width: calc(100% - 220px);
 }
-.header .carousel,
-.header .carousel .carousel-inner {
+.header .carousel {
     height: 500px;
+}
+.header .carousel .carousel-inner {
+    height: 100%;
 }
 .header .carousel-inner > .item > img {
     width: 100%;
