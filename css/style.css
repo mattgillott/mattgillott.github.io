@@ -21,6 +21,9 @@ body {
 .justified {
     text-align: justify !important;
 }
+.row {
+    margin-bottom: 30px;
+}
 /***************************
 ****************************
 Font
