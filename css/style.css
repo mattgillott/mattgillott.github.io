@@ -92,6 +92,12 @@ a:hover {
     text-decoration: none;
     color: #727270;
 }
+a.button:active,
+a.button:hover,
+.nav a:active,
+.nav a:hover {
+    background-color: #A7CD37 !important;
+}
 /***************************
 ****************************
 Buttons
