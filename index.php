@@ -2,7 +2,6 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Professional landscaping and gardening services and design for London residential and commercial properties at competitive prices.">
         <title>Main</title>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -11,76 +10,13 @@
         <link rel="stylesheet" type="text/css" href="css/index.css">
     </head>
     <body>
+        <div class="page-wrapper">
         <header class="container header">
             <!-- Sidebar -->
-            <div class="sidebar">
-                <a href="/">
-                    <img src="img/logo2.png" alt="Logo" class="logo" />
-                </a>
-                <div class="contact-info">
-                    <ul>
-                        <li class="address">
-                            <a href="tel:01509414416">
-                                <span class="glyphicon glyphicon-map-marker"></span> &nbsp; 
-                                19 Freehold Street<br />
-                                <span class="spacer">&nbsp;</span>Quorn<br />
-                                <span class="spacer">&nbsp;</span>Leicestershire<br />
-                                <span class="spacer">&nbsp;</span>LE12 8AY
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:01509414416">
-                                <span class="glyphicon glyphicon-earphone"></span> &nbsp; 01509 414416
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:07738260093">
-                                <span class="glyphicon glyphicon-phone"></span> &nbsp; 07738 260093
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:will@willaust.co.uk" target="_blank">
-                                <span class="glyphicon glyphicon-envelope"></span> &nbsp; will@willaust.co.uk
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <img class="fb-logo" src="img/fb/FB-f-Logo__white_50.png" alt="Facebook Logo" /> &nbsp; 
-                                Will Aust Architecture
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="scrollTo('footer');" class="button button-primary">Email us <span class="glyphicon glyphicon-menu-down"></span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <?php include 'sidebar.php'; ?>
             <!-- /Sidebar -->
             <!-- Navigation Bar -->
-            <div class="navbar-wrapper">
-                <nav class="navbar navbar-inverse navbar-static-top">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand visible-sm visible-xs" href="#"><img src="img/logo4.png" alt="Logo" class="logo" /></a>
-                        </div>
-                        <div id="navbar" class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="#" onclick="scrollTo('#about');">About</a></li>
-                                <li><a href="#">Project Processes</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>    
-            </div>
+            <?php include 'nav.php'; ?>
             <!-- /Navigation Bar -->
             <!-- Carousel -->
             <div id="carousel" class="carousel slide" data-interval="false" data-ride="carousel">
@@ -131,7 +67,6 @@
         <!-- /Carousel -->
         <!-- Page Content -->
         <div class="container featurette-container">
-            <hr class="featurette-divider">
             <div class="externals">
                 <img src="img/riba.png" alt="" class="riba">
                 <span>&nbsp;</span>
@@ -142,45 +77,38 @@
                 <p><strong>Will Aust Architecture</strong> is a <strong>client focused</strong>, contemporary <strong>architectural design practice</strong> that specialises in bespoke new build housing, renovations and extensions as well as commercial projects. We aim to make the process of building as <strong>simple and stress free</strong> as possible for our clients, no matter how large or small the project.</p>
             </div>
             <!-- /Description Ribbon -->
-            <hr class="featurette-divider" id="about">
             <!-- About -->
             <div class="row featurette">
                 <div class="col-sm-9 clearfix">
-                    <h1 class="featurette-heading">About</h1>
-                    <h2><span class="text-muted">All you need to know about Will Aust.</span></h2>
+                    <h1 class="featurette-heading" id="about">About</h1>
                     <p class="justified">Will Aust attended the prestigious Welsh School of Architecture, gaining a BSc in Architectural Studies and a Bachelor of Architecture (BArch), before completing his Post-Graduate Certification in professional Studies at the University of Nottingham.</p>
                     <p class="justified">Will spent 8 years working as a project running architect for A+G Architects, where he delivered a range of projects across various sectors of the industry. Most notably, from 2012-2014 Will was a project architect for the award winning Ashmount Special Needs School in Loughborough, which further honed his skills in delivering a complex project to a bespoke and intricate design brief. Will has developed an extensive knowledge of designing environmentally conscious building and has an excellent understanding of construction methods and techniques.</p>
                     <p class="justified">Will now practices on his own, but has built up a network of consultants as required for individual project's needs. The practice carries Professional Indemnity Insurance and is a chartered member of the Royal Institute of British Architects (RIBA) and is registered with the Architects Registration Board.</p>
                 </div>
                 <div class="col-sm-3">
-                  <img class="featurette-image img-responsive" style="margin-top: 90px;" src="img/profile.png">
+                  <img class="featurette-image img-responsive" style="margin-top:50px;" src="img/profile.png">
                 </div>
             </div>
             <!-- /About -->
-            <hr class="featurette-divider">
             <!-- Ribbon -->
             <div class="row featurette ribbon ribbon-green">
                 <h3>Are you considering extending or renovating your home?</h3>
                 <h2>Will Aust Architecture can help!</h2>
+                <a href="#" class="button button-primary">Find out more <span class="glyphicon glyphicon-menu-right"></span></a>
             </div>
             <!-- /Ribbon -->
-            <hr class="featurette-divider">
             <!-- Portfolio -->
             <div>
-                <div class="row featurette">
-                    <br class="visible-xs" />
-                    <div class="col-sm-12 clearfix">
-                        <h1 class="featurette-heading">Portfolio</h1>
-                        <h2><span class="text-muted">See some of our great work.</span></h2>
-                    </div>
-                </div>
-                <br />
                 <div class="row">
+                <div class="col-sm-12 clearfix">
+                        <h1 class="featurette-heading">Portfolio</h1>
+                    </div>
                     <div class="col-sm-3">
                         <div >
                             <img src="img/vis_2.png" alt="" />
                             <h2>Title</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam quos fuga, id, modi! Eligendi!</p>
+                            <a href="post.html" class="button button-primary" style="margin: 0 auto; position: relative;">Read more <span class="glyphicon glyphicon-menu-right"></span></a>
                         </div>
                     </div>
                     <div class="col-sm-3">
@@ -188,6 +116,7 @@
                             <img src="img/vis_3.png" alt="" />
                             <h2>Title</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam quos fuga, id, modi! Eligendi!</p>
+                            <a href="post.html" class="button button-primary" style="margin: 0 auto; position: relative;">Read more <span class="glyphicon glyphicon-menu-right"></span></a>
                         </div>
                     </div>
                     <div class="col-sm-3">
@@ -195,6 +124,7 @@
                             <img src="img/vis_2.png" alt="" />
                             <h2>Title</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam quos fuga, id, modi! Eligendi!</p>
+                            <a href="post.html" class="button button-primary" style="margin: 0 auto; position: relative;">Read more <span class="glyphicon glyphicon-menu-right"></span></a>
                         </div>
                     </div>
                     <div class="col-sm-3">
@@ -202,6 +132,7 @@
                             <img src="img/vis_3.png" alt="" />
                             <h2>Title</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam quos fuga, id, modi! Eligendi!</p>
+                            <a href="post.html" class="button button-primary" style="margin: 0 auto; position: relative;">Read more <span class="glyphicon glyphicon-menu-right"></span></a>
                         </div>
                     </div>
                 </div>
@@ -212,15 +143,11 @@
                 </div>
             </div>
             <!-- /Portfolio -->
-            <hr class="featurette-divider">
             <!-- Why Choose Us -->
             <div>
                 <div class="row featurette">
                     <div class="col-sm-12 clearfix">
                         <h1 class="featurette-heading">Why Choose Us?</h1>
-                        <h2>
-                            <span class="text-muted">See why you should choose Will Aust Architecture.</span>
-                        </h2>
                     </div>
                     <div class="col-sm-4 clearfix">
                         <p class="justified">
@@ -261,7 +188,6 @@
                 </div>
             </div>
             <!-- /Why Choose Us -->
-            <hr class="featurette-divider">
             <!-- Testimonials -->
             <div id="testimonials" class="row featurette ribbon ribbon-grey clearfix">
                 <h2>What our clients are saying about us:</h2>
@@ -270,7 +196,6 @@
                     <img src="img/speech_marks_left.png" class="speech-mark" alt="">
                     <p>Will Aust Architecture was exactly what I needed to complete my new home.</p>
                     <img src="img/speech_marks_left.png" class="speech-mark" alt="">
-                    
                 </div>
                 <div class="col-sm-4">
                     <img src="img/speech_marks_left.png" class="speech-mark" alt="">
@@ -285,44 +210,42 @@
                 <div class="clearfix"></div>
             </div>
             <!-- /Testimonials -->
-            <hr class="featurette-divider">
             <!-- Blog -->
             <div>
-                <div class="row featurette">
-                    <br class="visible-xs" />
+                <div class="row">
                     <div class="col-sm-12 clearfix">
                         <h1 class="featurette-heading">Blog</h1>
-                        <h2><span class="text-muted">See what's new.</span></h2>
                     </div>
-                </div>            
-                <br />
-                <div class="row">
                     <div class="col-sm-3">
-                        <div >
+                        <div class="clearfix">
                             <img src="img/vis_2.png" alt="" />
                             <h2>Title</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam quos fuga, id, modi! Eligendi!</p>
+                            <a href="post.html" class="button button-primary" style="margin: 0 auto; position: relative;">Read more <span class="glyphicon glyphicon-menu-right"></span></a>
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div>
+                        <div class="clearfix">
                             <img src="img/vis_3.png" alt="" />
                             <h2>Title</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam quos fuga, id, modi! Eligendi!</p>
+                            <a href="post.html" class="button button-primary" style="margin: 0 auto; position: relative;">Read more <span class="glyphicon glyphicon-menu-right"></span></a>
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div>
+                        <div class="clearfix">
                             <img src="img/vis_2.png" alt="" />
                             <h2>Title</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam quos fuga, id, modi! Eligendi!</p>
+                            <a href="post.html" class="button button-primary" style="margin: 0 auto; position: relative;">Read more <span class="glyphicon glyphicon-menu-right"></span></a>
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div>
+                        <div class="clearfix">
                             <img src="img/vis_3.png" alt="" />
                             <h2>Title</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam quos fuga, id, modi! Eligendi!</p>
+                            <a href="post.html" class="button button-primary" style="margin: 0 auto; position: relative;">Read more <span class="glyphicon glyphicon-menu-right"></span></a>
                         </div>
                     </div>
                     
@@ -336,98 +259,8 @@
         </div>
         <!-- /Page Content -->
         <br />
-        <footer class="clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 clearfix">
-                        <h1 class="featurette-heading contact">Contact</h1>
-                        <h2>
-                            <span class="text-muted">Get in touch to find out more information.</span>
-                        </h2>
-                        <p></p>
-                    </div>
-                </div>
-                <br />
-                <div class="row">
-                    <div class="contact-info">
-                        <div class="col-sm-4">
-                            <a class="clearfix" href="tel:01509414416">
-                                <div class="icon-container">
-                                    <span class="glyphicon glyphicon-map-marker"></span>
-                                </div>
-                                <p>
-                                    19 Freehold Street
-                                    <br />Quorn
-                                    <br />Leicestershire
-                                    <br />LE12 8AY
-                                </p>
-                            </a>
-                            <a class="clearfix" href="tel:01509414416">
-                                <div class="icon-container">
-                                    <span class="glyphicon glyphicon-earphone"></span>
-                                </div>
-                                <p>01509 414416</p>
-                            </a>
-                            <a class="clearfix" href="tel:07738260093">
-                                <div class="icon-container">
-                                    <span class="glyphicon glyphicon-phone"></span>
-                                </div>
-                                <p>07738 260093</p>
-                            </a>
-                            <a class="clearfix" href="mailto:will@willaust.co.uk" class="clearfix" target="_blank">
-                                <div class="icon-container">
-                                    <span class="glyphicon glyphicon-envelope"></span>
-                                </div>
-                                <p>will@willaust.co.uk</p>
-                            </a>
-                            <a class="clearfix" href="#" target="_blank">
-                                <div class="icon-container">
-                                    <img class="fb-logo" src="img/fb/FB-f-Logo__white_50.png" alt="Facebook Logo" />
-                                </div>
-                                <p>Will Aust Architecture</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-8">
-                            <form class="email" action="mail.php" method="post">
-                                <div class="col-sm-6 contact-form">
-                                    <label for="name">Your name:</label>
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-                                        <input type="text" id="name" name="name" class="form-control" />
-                                    </div>
-                                    <br />
-                                    <label for="email">Your email address:</label>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">@</span>
-                                        <input type="email" id="email" name="email" class="form-control" />
-                                    </div>
-                                    <br />
-                                    <label for="subject">Subject:</label>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <span class="glyphicon glyphicon-pencil"></span>
-                                        </span>
-                                        <input type="text" id="subject" name="subject" class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 contact-form">
-                                    <br class="visible-xs" />
-                                    <label for="message">Message:</label>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <span class="glyphicon glyphicon-comment"></span>
-                                        </span>
-                                        <textarea id="message" name="message" class="form-control" rows="5" cols="50"></textarea>
-                                    </div>
-                                    <br />
-                                    <button type="submit" class="button button-outlined button-primary">Send email <span class="glyphicon glyphicon-send"></span></button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <?php include 'footer.php'; ?>
+        </div>
         <script src="js/jquery-2.1.3.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>

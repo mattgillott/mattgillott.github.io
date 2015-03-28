@@ -11,6 +11,7 @@ html,
 body {
     position: relative;
     height: 100%;
+    background-color: #ccc;
 }
 .left {
     float: left;
@@ -23,6 +24,12 @@ body {
 }
 .row {
     margin-bottom: 30px;
+}
+.page-wrapper {
+    background-color: #fff;
+    max-width: 1170px;
+    margin-left: calc((100vw - 1170px)/2);
+    box-shadow: 0 0 15px #999;
 }
 /***************************
 ****************************
@@ -291,8 +298,8 @@ Ribbons
 ***************************/
 .ribbon {
     position: relative;
-    left: -30px;
-    width: 1200px;
+    left: -45px;
+    width: 1230px;
     margin: 20px 0 40px 0;
     padding: 20px 0;
     color: #fff;
@@ -319,8 +326,7 @@ Ribbons
     text-align: center;
 }
 .ribbon:before,
-.ribbon:after,
-.featurette-heading:before {
+.ribbon:after {
     position: absolute;
     display: block;
     width: 0;
@@ -387,25 +393,6 @@ Ribbons
         display: none;
     }
 }
-.featurette-heading:before {
-    top: -5px;
-    left: -1px;
-    width: 0;
-    height: 0;
-    border-width: 0 0 5px 15px;
-    border-style: solid;
-    border-color: transparent transparent #333 transparent;
-}
-.featurette-heading {
-    position: relative;
-    left: -10px;
-    display: inline-block;
-    margin-bottom: 10px !important;
-    padding: 10px 20px;
-    color: #fff;
-    background-color: #727270;
-    box-shadow: 0 2px 2px #999;
-}
 /***************************
 ****************************
 Site Footer
@@ -418,8 +405,7 @@ footer {
     background: #727270;
 }
 footer .featurette-heading {
-    color: #727270;
-    background: #fff;
+    color: #fff;
 }
 footer .text-muted {
     color: #fff;
@@ -537,4 +523,12 @@ Extra Small Screens
         height: 0px;
         line-height: 50px;
     }*/
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .page-wrapper {
+        margin-left: auto;
+    }
 }

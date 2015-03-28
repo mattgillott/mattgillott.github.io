@@ -13,74 +13,10 @@
     <body>
         <header class="container header">
             <!-- Sidebar -->
-            <div class="sidebar">
-                <a href="/">
-                    <img src="img/logo2.png" alt="Logo" class="logo" />
-                </a>
-                <div class="contact-info">
-                    <ul>
-                        <li class="address">
-                            <a href="tel:01509414416">
-                                <span class="glyphicon glyphicon-map-marker"></span> &nbsp; 
-                                19 Freehold Street<br />
-                                <span class="spacer">&nbsp;</span>Quorn<br />
-                                <span class="spacer">&nbsp;</span>Leicestershire<br />
-                                <span class="spacer">&nbsp;</span>LE12 8AY
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:01509414416">
-                                <span class="glyphicon glyphicon-earphone"></span> &nbsp; 01509 414416
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:07738260093">
-                                <span class="glyphicon glyphicon-phone"></span> &nbsp; 07738 260093
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:will@willaust.co.uk" target="_blank">
-                                <span class="glyphicon glyphicon-envelope"></span> &nbsp; will@willaust.co.uk
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <img class="fb-logo" src="img/fb/FB-f-Logo__white_50.png" alt="Facebook Logo" /> &nbsp; 
-                                Will Aust Architecture
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="scrollTo('footer');" class="button button-primary">Email us <span class="glyphicon glyphicon-menu-down"></span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <?php include 'sidebar.php'; ?>
             <!-- /Sidebar -->
             <!-- Navigation Bar -->
-            <div class="navbar-wrapper">
-                <nav class="navbar navbar-inverse navbar-static-top">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand visible-sm visible-xs" href="#"><img src="img/logo4.png" alt="Logo" class="logo" /></a>
-                        </div>
-                        <div id="navbar" class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="index.html#about">About</a></li>
-                                <li><a href="#">Project Processes</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>    
-            </div>
+            <?php include 'nav.php'; ?>
             <!-- /Navigation Bar -->
             <!-- Carousel -->
             <div id="carousel" class="carousel slide" data-interval="false" data-ride="carousel">
@@ -202,98 +138,7 @@
         </div>
         <!-- /Page Content -->
         <br />
-        <footer class="clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 clearfix">
-                        <h1 class="featurette-heading contact">Contact</h1>
-                        <h2>
-                            <span class="text-muted">Get in touch to find out more information.</span>
-                        </h2>
-                        <p></p>
-                    </div>
-                </div>
-                <br />
-                <div class="row">
-                    <div class="contact-info">
-                        <div class="col-sm-4">
-                            <a class="clearfix" href="tel:01509414416">
-                                <div class="icon-container">
-                                    <span class="glyphicon glyphicon-map-marker"></span>
-                                </div>
-                                <p>
-                                    19 Freehold Street
-                                    <br />Quorn
-                                    <br />Leicestershire
-                                    <br />LE12 8AY
-                                </p>
-                            </a>
-                            <a class="clearfix" href="tel:01509414416">
-                                <div class="icon-container">
-                                    <span class="glyphicon glyphicon-earphone"></span>
-                                </div>
-                                <p>01509 414416</p>
-                            </a>
-                            <a class="clearfix" href="tel:07738260093">
-                                <div class="icon-container">
-                                    <span class="glyphicon glyphicon-phone"></span>
-                                </div>
-                                <p>07738 260093</p>
-                            </a>
-                            <a class="clearfix" href="mailto:will@willaust.co.uk" class="clearfix" target="_blank">
-                                <div class="icon-container">
-                                    <span class="glyphicon glyphicon-envelope"></span>
-                                </div>
-                                <p>will@willaust.co.uk</p>
-                            </a>
-                            <a class="clearfix" href="#" target="_blank">
-                                <div class="icon-container">
-                                    <img class="fb-logo" src="img/fb/FB-f-Logo__white_50.png" alt="Facebook Logo" />
-                                </div>
-                                <p>Will Aust Architecture</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-8">
-                            <form class="email" action="mail.php" method="post">
-                                <div class="col-sm-6 contact-form">
-                                    <label for="name">Your name:</label>
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-                                        <input type="text" id="name" name="name" class="form-control" />
-                                    </div>
-                                    <br />
-                                    <label for="email">Your email address:</label>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">@</span>
-                                        <input type="email" id="email" name="email" class="form-control" />
-                                    </div>
-                                    <br />
-                                    <label for="subject">Subject:</label>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <span class="glyphicon glyphicon-pencil"></span>
-                                        </span>
-                                        <input type="text" id="subject" name="subject" class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 contact-form">
-                                    <br class="visible-xs" />
-                                    <label for="message">Message:</label>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <span class="glyphicon glyphicon-comment"></span>
-                                        </span>
-                                        <textarea id="message" name="message" class="form-control" rows="5" cols="50"></textarea>
-                                    </div>
-                                    <br />
-                                    <button type="submit" class="button button-outlined button-primary">Send email <span class="glyphicon glyphicon-send"></span></button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <?php include 'footer.php'; ?>
         <script src="js/jquery-2.1.3.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
