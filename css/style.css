@@ -308,6 +308,9 @@ hr {
 .text-muted {
     color: #727270;
 }
+.col-sm-4 {
+    margin-bottom: 30px;
+}
 .col-sm-4 h2 {
     color: #727270;
 }
@@ -335,6 +338,16 @@ hr {
 .carousel-control .glyphicon-chevron-right,
 .carousel-control .icon-next {
   margin-right: -40px;
+}
+.speech-mark:nth-of-type(2n+1) {
+    float: left;
+    width: 30px;
+}
+.speech-mark:nth-of-type(2n) {
+    float: right;
+    width: 30px;
+    margin-top: -30px;
+    transform: rotate(180deg);
 }
 /***************************
 ****************************

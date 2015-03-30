@@ -45,13 +45,13 @@
                             <img src="img/vis_4.png">
                         </div>
                         <div class="item">
-                            <img src="img/vis_2.png">
+                            <img src="img/vis_4.png">
                         </div>
                         <div class="item">
                             <img src="img/vis_1.png">
                         </div>
                         <div class="item">
-                            <img src="img/vis_3.png">
+                            <img src="img/vis_4.png">
                         </div>
                     </div>
                     <!-- /Slides Wrapper -->
@@ -72,11 +72,21 @@
             <br />
             <!-- Page Content -->
             <div class="container featurette-container">
-                
-                <!-- Blog -->
+                <!-- Project -->
+                <div class="row featurette">
+                    <div class="col-sm-12 clearfix">
+                        <h1 class="featurette-heading">Project Name</h1>
+                        <p class="justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ipsum deleniti aliquam, animi delectus fuga eligendi voluptates reprehenderit quisquam corrupti minima, ducimus recusandae. Placeat iure vero exercitationem unde autem voluptatibus voluptate quisquam nesciunt sint quas consectetur ut minima, libero iusto accusantium hic reprehenderit odit nemo, dignissimos rem perspiciatis expedita magnam fugiat. Sunt deleniti quod, pariatur nostrum expedita, neque ea quasi vero nihil dicta ipsum accusamus asperiores fugiat unde dignissimos alias distinctio possimus praesentium voluptates hic ducimus nam, libero deserunt. Et, mollitia aliquid placeat maiores, velit similique quasi ratione in officiis enim, numquam fugit. Consequuntur sit repellendus deleniti quasi, omnis corrupti.</p>
+                        <p class="justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, accusantium ratione magnam ex quam eius debitis vero sed, nihil aliquid ullam, unde aperiam culpa nesciunt ipsam deleniti totam recusandae soluta iste animi mollitia perferendis non. Facere ipsam architecto, voluptates, perferendis ducimus recusandae id impedit similique cumque fugiat. Rem reprehenderit quia amet voluptate, harum commodi cumque fugiat cum nesciunt optio libero, a sapiente tenetur, numquam voluptatem vero! Cupiditate minus nulla delectus neque, culpa repellendus animi, maxime exercitationem rem aliquid suscipit, consectetur illo rerum. Quidem cum tenetur ducimus officiis eaque. Numquam fugiat velit iure tempore id excepturi alias quas quae dolorem assumenda!</p>
+                    </div>
+                </div>
+                <!-- /Project -->
+                <!-- Portfolio -->
                 <div class="row">
                     <div class="col-sm-12 clearfix">
-                        <h1 class="featurette-heading">Blog</h1>
+                        <a href="portfolio.php">
+                            <h1 class="featurette-heading">More from our Portfolio</h1>
+                        </a>
                     </div>
                     <div class="col-sm-4">
                         <div >
@@ -85,7 +95,7 @@
                             </a>
                             <h2>Title</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam quos fuga, id, modi! Eligendi!</p>
-                            <a href="post.php" class="more">Read more...</a>
+                            <a href="#" class="more">Read more...</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -95,7 +105,7 @@
                             </a>
                             <h2>Title</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam quos fuga, id, modi! Eligendi!</p>
-                            <a href="post.php" class="more">Read more...</a>
+                            <a href="#" class="more">Read more...</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -105,69 +115,17 @@
                             </a>
                             <h2>Title</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam quos fuga, id, modi! Eligendi!</p>
-                            <a href="post.php" class="more">Read more...</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div>
-                            <a href="#">
-                                <img src="img/vis_3.png" alt="" />
-                            </a>
-                            <h2>Title</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam quos fuga, id, modi! Eligendi!</p>
-                            <a href="post.php" class="more">Read more...</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div>
-                            <a href="#">
-                                <img src="img/vis_3.png" alt="" />
-                            </a>
-                            <h2>Title</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam quos fuga, id, modi! Eligendi!</p>
-                            <a href="post.php" class="more">Read more...</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div>
-                            <a href="#">
-                                <img src="img/vis_3.png" alt="" />
-                            </a>
-                            <h2>Title</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam quos fuga, id, modi! Eligendi!</p>
-                            <a href="post.php" class="more">Read more...</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div>
-                            <a href="#">
-                                <img src="img/vis_3.png" alt="" />
-                            </a>
-                            <h2>Title</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam quos fuga, id, modi! Eligendi!</p>
-                            <a href="post.php" class="more">Read more...</a>
+                            <a href="#" class="more">Read more...</a>
                         </div>
                     </div>
                 </div>
                 <!-- /Blog -->
-                
             </div>
             <!-- /Page Content -->
             <?php include 'footer.php'; ?>
         </div>
         <script src="js/jquery-2.1.3.min.js"></script>
-        <script src="js/jquery.mobile.custom.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
-        <script>  
-            $(document).ready(function() {  
-                $("#carousel").swiperight(function() {  
-                    $("#carousel").carousel('prev');  
-                });  
-                $("#carousel").swipeleft(function() {  
-                    $("#carousel").carousel('next');  
-                });  
-            });  
-        </script>  
     </body>
 </html>

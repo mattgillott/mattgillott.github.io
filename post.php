@@ -6,7 +6,7 @@
         <meta name="description" content="">
         <!-- Icons -->
         <?php include 'icons.php' ?>
-        <title>Main</title>
+        <title>Will Aust Architecture</title>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -50,6 +50,7 @@
                 </div>
             </header>
             <!-- /Carousel -->
+            <br />
             <br />
             <!-- Page Content -->
             <div class="container featurette-container">

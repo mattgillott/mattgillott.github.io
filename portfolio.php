@@ -6,7 +6,7 @@
         <!-- Icons -->
         <?php include 'icons.php' ?>
         <meta name="description" content="">
-        <title>Main</title>
+        <title>Will Aust Architecture</title>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -69,6 +69,7 @@
             </header>
             <!-- /Carousel -->
             <br />
+            <br />
             <!-- Page Content -->
             <div class="container featurette-container">
                 
@@ -80,38 +81,86 @@
                         </div>
                         <div class="col-sm-4">
                             <div >
-                                <a href="#">
+                                <a href="project.php">
                                     <img src="img/vis_2.png" alt="" />
                                 </a>
                                 <h2>Title</h2>
                                 <div class="text-wrapper">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quae, voluptate reiciendis repellendus, rerum possimus voluptatem molestiae unde illo perspiciatis animi labore autem voluptatibus aperiam vero accusantium impedit eligendi libero incidunt. Voluptates atque cupiditate hic nam voluptatum, autem sed voluptatem neque, unde impedit laudantium. Minima pariatur, quaerat consectetur id tempora.</p>
                                 </div>
-                                <a href="#" class="more">See more...</a>
+                                <a href="project.php" class="more">See more...</a>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div>
-                                <a href="#">
+                                <a href="project.php">
                                     <img src="img/vis_2.png" alt="" />
                                 </a>
                                 <h2>Title</h2>
                                 <div class="text-wrapper">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint inventore ducimus iusto illo voluptates distinctio nihil facere modi quam? Amet, officia aspernatur explicabo nemo. Sunt illo sit at voluptatem labore earum, libero mollitia, laboriosam optio similique ad ipsam nihil expedita enim quis sapiente. Ea tempora nulla eaque adipisci deleniti ut.</p>
                                 </div>
-                                <a href="#" class="more">See more...</a>
+                                <a href="project.php" class="more">See more...</a>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div>
-                                <a href="#">
+                                <a href="project.php">
                                     <img src="img/vis_2.png" alt="" />
                                 </a>
                                 <h2>Title</h2>
                                 <div class="text-wrapper">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel explicabo excepturi ab magni suscipit tempora velit minus molestias quibusdam numquam, fugit soluta officiis impedit provident facere, aut fuga eius odit dignissimos, est, voluptate et culpa totam assumenda. Doloribus labore repellendus, dolore rem dolor dolorem voluptatum accusantium voluptatem magnam minus assumenda?</p>
                                 </div>
-                                <a href="#" class="more">See more...</a>
+                                <a href="project.php" class="more">See more...</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div>
+                                <a href="project.php">
+                                    <img src="img/vis_2.png" alt="" />
+                                </a>
+                                <h2>Title</h2>
+                                <div class="text-wrapper">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel explicabo excepturi ab magni suscipit tempora velit minus molestias quibusdam numquam, fugit soluta officiis impedit provident facere, aut fuga eius odit dignissimos, est, voluptate et culpa totam assumenda. Doloribus labore repellendus, dolore rem dolor dolorem voluptatum accusantium voluptatem magnam minus assumenda?</p>
+                                </div>
+                                <a href="project.php" class="more">See more...</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div>
+                                <a href="project.php">
+                                    <img src="img/vis_2.png" alt="" />
+                                </a>
+                                <h2>Title</h2>
+                                <div class="text-wrapper">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel explicabo excepturi ab magni suscipit tempora velit minus molestias quibusdam numquam, fugit soluta officiis impedit provident facere, aut fuga eius odit dignissimos, est, voluptate et culpa totam assumenda. Doloribus labore repellendus, dolore rem dolor dolorem voluptatum accusantium voluptatem magnam minus assumenda?</p>
+                                </div>
+                                <a href="project.php" class="more">See more...</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div>
+                                <a href="project.php">
+                                    <img src="img/vis_2.png" alt="" />
+                                </a>
+                                <h2>Title</h2>
+                                <div class="text-wrapper">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel explicabo excepturi ab magni suscipit tempora velit minus molestias quibusdam numquam, fugit soluta officiis impedit provident facere, aut fuga eius odit dignissimos, est, voluptate et culpa totam assumenda. Doloribus labore repellendus, dolore rem dolor dolorem voluptatum accusantium voluptatem magnam minus assumenda?</p>
+                                </div>
+                                <a href="project.php" class="more">See more...</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div>
+                                <a href="project.php">
+                                    <img src="img/vis_2.png" alt="" />
+                                </a>
+                                <h2>Title</h2>
+                                <div class="text-wrapper">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel explicabo excepturi ab magni suscipit tempora velit minus molestias quibusdam numquam, fugit soluta officiis impedit provident facere, aut fuga eius odit dignissimos, est, voluptate et culpa totam assumenda. Doloribus labore repellendus, dolore rem dolor dolorem voluptatum accusantium voluptatem magnam minus assumenda?</p>
+                                </div>
+                                <a href="project.php" class="more">See more...</a>
                             </div>
                         </div>
                     </div>
