@@ -29,9 +29,10 @@
                 </a>
             </li>
             <li>
-                <a href="#" onclick="scrollTo('footer', 1000);" class="button button-primary">Get in touch</a>
+                
             </li>
         </ul>
+        <br />
         <ul class="social">
             <li>
                 <a href="#"><img src="img/fb/FB-f-Logo__blue_50.png" /></a>
@@ -40,5 +41,7 @@
                 <a href="http://uk.linkedin.com/pub/will-aust/a5/4a6/202" target="_blank"><img src="img/li/In-2C-41px-R.png" /></a>
             </li>
         </ul>
+        <span class="clearfix"></span>
+        <a href="#" onclick="scrollTo('footer', 1000);" class="button button-primary">Get in touch!</a>
     </div>
 </div>

@@ -52,7 +52,7 @@ h3 {
     color: #727270;
 }
 h1 {
-    font-size: 30px;
+    font-size: 36px;
 }
 h2 {
     font-size: 25px;
@@ -94,6 +94,10 @@ h3 {
     max-width: 200px;
     float: right;
 }
+.text-wrapper {
+    height: 110px;
+    overflow: hidden;
+}
 /***************************
 ****************************
 Links
@@ -132,6 +136,7 @@ button {
     padding: 10px;
     text-align: center;
     border-radius: 6px;
+    color: #fff !important;
 }
 .button:focus {
     text-decoration: none;
@@ -314,10 +319,6 @@ hr {
 .col-sm-4 div img {
     width: 100%;
     max-width: 100%;
-}
-.col-sm-4 .text-wrapper {
-    height: 110px;
-    overflow-y: hidden;
 }
 .col-sm-4 .more {
     text-align: center;
@@ -536,6 +537,14 @@ Extra Small Screens
     }
 }
 @media screen and (max-width: 767px) {
+    .carousel-control .glyphicon-chevron-left,
+    .carousel-control .icon-prev {
+      margin-left: -20px;
+    }
+    .carousel-control .glyphicon-chevron-right,
+    .carousel-control .icon-next {
+      margin-right: -20px;
+}
     .col-sm-4 {
         margin-bottom: 30px;
     }
