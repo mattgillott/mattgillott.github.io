@@ -75,7 +75,21 @@
                     </div>
                 </div>
                 <!-- /Post -->
-                
+                <!-- Testimonials -->
+                <div id="testimonials" class="row featurette ribbon ribbon-grey clearfix">
+                    <h2>What our clients are saying about us:</h2>
+                    <br />
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <img src="img/speech_marks_left.png" class="speech-mark" alt="">
+                        <p>Will Aust Architecture was exactly what I needed to complete my new home.</p>
+                        <img src="img/speech_marks_left.png" class="speech-mark" alt="">
+                        <br />
+                        <a href="#">Read more...</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- /Testimonials -->
                 <!-- Blog -->
                 <div class="row">
                     <div class="col-sm-12 clearfix">
