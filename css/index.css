@@ -21,16 +21,6 @@ General
 .ribbon-left:after {
     display: none;
 }
-
-
-
-
-
-@media screen and (max-width: 1199px) {
-    .orgs span {
-        display: none;
-    }
-}
 @media screen and (min-width: 767px) {
     .ribbon-left {
         width: 100%;
@@ -44,47 +34,6 @@ General
         left: -15px;
     }
 }
-/*@media screen and (max-width: 991px) {
-    .orgs {
-        text-align: center;
-        width: 25%;
-        margin-top: 70px;
-    }
-    .ribbon-left {
-        width: 70%;
-        padding-left: 10%;
-        left: -10%;
-        left: 0;
-    }
-    .ribbon-left:before {
-        display: none;
-    }
-}
-
-
-
-@media screen and (max-width: 600px) {
-    .orgs .riba {
-        height: 50px;
-    }
-    .orgs .arb {
-        height: 60px;
-    }
-    .orgs span {
-        margin: 0 40px;
-    }
-}
-@media screen and (max-width: 450px) {
-    .orgs .riba {
-        height: 35px;
-    }
-    .orgs .arb {
-        height: 45px;
-    }
-    .orgs span {
-        margin: 0 20px;
-    }
-}*/
 .speech-mark:nth-of-type(2n+1) {
     float: left;
     width: 30px;

@@ -88,27 +88,25 @@
                 <!-- Description Ribbon -->
                 <div class="row">
                     <div class="col-sm-8">
-                        <div class="featurette ribbon ribbon-left ribbon-grey">
+                        <div class="featurette ribbon ribbon-left ribbon-grey" style="margin-bottom: 0;">
                             <p><strong>Will Aust Architecture</strong> is a <strong>client focused</strong>, contemporary <strong>architectural design practice</strong> that specialises in bespoke new build housing, renovations and extensions as well as commercial projects. We aim to make the process of building as <strong>simple and stress free</strong> as possible for our clients, no matter how large or small the project.</p>
                         </div>
                     </div>
                     <div class="orgs col-sm-4">
                         <img src="img/riba.png" alt="" class="riba">
-                        <span>&nbsp;</span>
+                        <span class="visible-xs visible-lg" style="display: inline-block!important;">&nbsp;</span>
                         <img src="img/arb.png" alt="" class="arb">
                     </div>
                 </div>
                 <!-- /Description Ribbon -->
                 <!-- About -->
                 <div class="row featurette">
-                    <div class="col-sm-9 clearfix">
+                    <div class="col-sm-12 clearfix">
                         <h1 class="featurette-heading" id="about">About</h1>
+                        <img class="featurette-image img-responsive" src="img/profile.png">
                         <p class="justified">Will Aust attended the prestigious Welsh School of Architecture, gaining a BSc in Architectural Studies and a Bachelor of Architecture (BArch), before completing his Post-Graduate Certification in professional Studies at the University of Nottingham.</p>
                         <p class="justified">Will spent 8 years working as a project running architect for A+G Architects, where he delivered a range of projects across various sectors of the industry. Most notably, from 2012-2014 Will was a project architect for the award winning Ashmount Special Needs School in Loughborough, which further honed his skills in delivering a complex project to a bespoke and intricate design brief. Will has developed an extensive knowledge of designing environmentally conscious building and has an excellent understanding of construction methods and techniques.</p>
                         <p class="justified">Will now practices on his own, but has built up a network of consultants as required for individual project's needs. The practice carries Professional Indemnity Insurance and is a chartered member of the Royal Institute of British Architects (RIBA) and is registered with the Architects Registration Board.</p>
-                    </div>
-                    <div class="col-sm-3"> 
-                      <img class="featurette-image img-responsive" style="max-width: 250px;" src="img/profile.png">
                     </div>
                 </div>
                 <!-- /About -->
@@ -122,8 +120,10 @@
                 <!-- Portfolio -->
                 <div>
                     <div class="row">
-                    <div class="col-sm-12 clearfix">
-                            <h1 class="featurette-heading">Portfolio</h1>
+                        <div class="col-sm-12 clearfix">
+                            <a href="portfolio.php">
+                                <h1 class="featurette-heading">Portfolio</h1>
+                            </a>
                         </div>
                         <div class="col-sm-4">
                             <div >
@@ -132,7 +132,7 @@
                                 <div class="text-wrapper">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam...</p>
                                 </div>
-                                <a href="post.php" class="more">See more...</span></a>
+                                <a href="#" class="more">See more...</span></a>
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -142,7 +142,7 @@
                                 <div class="text-wrapper">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam...</p>
                                 </div>
-                                <a href="post.php" class="more">See more...</span></a>
+                                <a href="#" class="more">See more...</span></a>
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -152,7 +152,7 @@
                                 <div class="text-wrapper">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi quia quibusdam nihil, molestias aspernatur minima explicabo numquam...</p>
                                 </div>
-                                <a href="post.php" class="more">See more...</span></a>
+                                <a href="#" class="more">See more...</span></a>
                             </div>
                         </div>
                     </div>
@@ -197,7 +197,12 @@
                             <p>Your money is important to you, so we will help you to spend it effectively.</p>
                         </div>
                         <div class="col-sm-4">
-                            <p>Don't just take our word for it...<br /><br /><a href="#">See what our clients are saying!</a></p>
+                            <p class="justified">
+                                <strong>Don't take our word for it...</strong>
+                            </p>
+                            <p>
+                                <a href="#" class="button button-primary">See what our clients are saying!</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -211,6 +216,8 @@
                         <img src="img/speech_marks_left.png" class="speech-mark" alt="">
                         <p>Will Aust Architecture was exactly what I needed to complete my new home.</p>
                         <img src="img/speech_marks_left.png" class="speech-mark" alt="">
+                        <br />
+                        <a href="#">Read more...</a>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -219,7 +226,9 @@
                 <div>
                     <div class="row">
                         <div class="col-sm-12 clearfix">
-                            <h1 class="featurette-heading">Blog</h1>
+                            <a href="blog.php">
+                                <h1 class="featurette-heading">Blog</h1>
+                            </a>
                         </div>
                         <div class="col-sm-4">
                             <div class="clearfix">
