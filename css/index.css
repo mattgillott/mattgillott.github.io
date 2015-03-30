@@ -3,40 +3,88 @@
 General
 ****************************
 ***************************/
-.externals {
+.orgs {
     text-align: center;
+    position: relative;
+    top: 30px;
 }
-.externals .riba {
-    height: 70px;
+.orgs .riba {
+    height: 50px;
 }
-.externals .arb {
-    height: 80px;
+.orgs .arb {
+    height: 61px;
 }
-.externals span {
-    margin: 0 50px;
+.orgs span {
+    margin: 0 10px;
+    display: inline-block;
 }
+.ribbon-left:after {
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 1199px) {
+    .orgs span {
+        display: none;
+    }
+}
+@media screen and (min-width: 767px) {
+    .ribbon-left {
+        width: 100%;
+    }
+    .orgs {
+        top: 60px;
+    }
+}
+@media screen and (max-width: 766px) {
+    .ribbon-left {
+        left: -15px;
+    }
+}
+/*@media screen and (max-width: 991px) {
+    .orgs {
+        text-align: center;
+        width: 25%;
+        margin-top: 70px;
+    }
+    .ribbon-left {
+        width: 70%;
+        padding-left: 10%;
+        left: -10%;
+        left: 0;
+    }
+    .ribbon-left:before {
+        display: none;
+    }
+}
+
+
+
 @media screen and (max-width: 600px) {
-    .externals .riba {
+    .orgs .riba {
         height: 50px;
     }
-    .externals .arb {
+    .orgs .arb {
         height: 60px;
     }
-    .externals span {
+    .orgs span {
         margin: 0 40px;
     }
 }
 @media screen and (max-width: 450px) {
-    .externals .riba {
+    .orgs .riba {
         height: 35px;
     }
-    .externals .arb {
+    .orgs .arb {
         height: 45px;
     }
-    .externals span {
+    .orgs span {
         margin: 0 20px;
     }
-}
+}*/
 .speech-mark:nth-of-type(2n+1) {
     float: left;
     width: 30px;

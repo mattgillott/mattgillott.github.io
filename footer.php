@@ -1,6 +1,6 @@
 <footer class="clearfix">
     <div class="container">
-        <div class="row">
+        <div class="row" style="margin-bottom: 0;">
             <div class="col-sm-12 clearfix">
                 <h1 class="featurette-heading contact">Get in Touch</h1>
             </div>
@@ -8,7 +8,7 @@
         <br />
         <div class="row">
             <div class="contact-info">
-                <div class="col-sm-4">
+                <div class="col-sm-6 col-md-4">
                     <a class="clearfix" href="tel:01509414416">
                         <div class="icon-container">
                             <span class="glyphicon glyphicon-map-marker"></span>
@@ -45,9 +45,10 @@
                         <p>Will Aust Architecture</p>
                     </a>
                 </div>
-                <div class="col-sm-8">
+                <div class="row visible-xs"></div>
+                <div class="col-sm-6 col-md-8">
                     <form class="email" action="mail.php" method="post">
-                        <div class="col-sm-6 contact-form">
+                        <div class="col-md-6 contact-form">
                             <label for="name">Your name:</label>
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
@@ -68,7 +69,7 @@
                                 <input type="text" id="subject" name="subject" class="form-control" />
                             </div>
                         </div>
-                        <div class="col-sm-6 contact-form">
+                        <div class="col-md-6 contact-form">
                             <br class="visible-xs" />
                             <label for="message">Message:</label>
                             <div class="input-group">

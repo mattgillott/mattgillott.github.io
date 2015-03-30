@@ -29,13 +29,7 @@
                 </a>
             </li>
             <li>
-                <a href="#" target="_blank">
-                    <img class="fb-logo" src="img/fb/FB-f-Logo__white_50.png" alt="Facebook Logo" /> &nbsp; 
-                    Will Aust Architecture
-                </a>
-            </li>
-            <li>
-                <a href="#" onclick="scrollTo('footer');" class="button button-primary">Get in touch <span class="glyphicon glyphicon-menu-down"></span></a>
+                <a href="#" onclick="scrollTo('footer', 1000);" class="button button-primary">Get in touch <span class="glyphicon glyphicon-menu-down"></span></a>
             </li>
         </ul>
     </div>
