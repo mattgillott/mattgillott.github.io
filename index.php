@@ -97,7 +97,7 @@
                 <div class="row featurette ribbon ribbon-green">
                     <h3>Are you considering extending or renovating your home?</h3>
                     <h2>Will Aust Architecture can help!</h2>
-                    <a href="/" class="grey">Find out more...</a>
+                    <a href="#" class="grey">Find out more...</a>
                 </div>
                 <!-- /Ribbon -->
                 <!-- Portfolio -->

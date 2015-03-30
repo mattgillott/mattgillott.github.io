@@ -8,12 +8,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand visible-sm visible-xs" href="/"><img src="img/logo3.png" alt="Logo" class="logo" /></a>
+                <a class="navbar-brand visible-sm visible-xs" href="index.php"><img src="img/logo3.png" alt="Logo" class="logo" /></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/#about" onclick="scrollTo('#about');">About</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index.php#about" onclick="scrollTo('#about');">About</a></li>
                     <li><a href="#">Project Processes</a></li>
                     <li><a href="portfolio.php">Portfolio</a></li>
                     <li><a href="blog.php">Blog</a></li>

@@ -1,6 +1,6 @@
 <div class="sidebar">
-    <a href="/">
-        <img src="img/logo2.png" alt="Logo" class="logo" />
+    <a href="index.php">
+        <img src="img/logo.png" alt="Logo" class="logo" />
     </a>
     <div class="contact-info">
         <ul>
